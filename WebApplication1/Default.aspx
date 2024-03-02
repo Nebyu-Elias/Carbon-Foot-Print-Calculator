@@ -2,7 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <main>
+
+    <main >
         <section class="row" aria-labelledby="aspnetTitle">
             <h1 id="aspnetTitle">Carbon Foot Print Calculator</h1>
             <p class="lead">Here you can find some discription about our project.</p>
@@ -21,7 +22,7 @@ more advanced features like database management, APIs, front-end
 development, data visualization, and authentication and authorization.</h4> 
         </p>
             
-            <p><a href="http://www.asp.net" class="btn btn-primary btn-md">Calculator &raquo;</a></p>
+            <p><a href="https://localhost:44321/Calculator.html" class="btn btn-primary btn-md">Calculator &raquo;</a></p>
         </section>
         
  <%--       <div class="row">
@@ -55,5 +56,11 @@ development, data visualization, and authentication and authorization.</h4>
             </section>
         </div>--%>
     </main>
+
+
+
+
+
+
 
 </asp:Content>

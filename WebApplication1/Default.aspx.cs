@@ -11,6 +11,13 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // You can set the background image URL dynamically if needed
+            string backgroundImageUrl = "D:\\class\\nidamco\\Programming Fundamentals\\C# Assignment\\image";
+
+            // Set the background image using CSS
+            Page.Header.Style.Add("background-image", $"url('{backgroundImageUrl}')");
+            Page.Header.Style.Add("background-size", "cover");
+            Page.Header.Style.Add("background-repeat", "no-repeat");
 
         }
     }
