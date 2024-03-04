@@ -13,9 +13,29 @@
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <style>
+        body{
+            background-image: url('image5.png');
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            
+        }
+    </style>
 
 </head>
 <body >
+
+   <%--   <style>
+      body{
+          background-image: url('image5.png');
+          height: 100vh;
+          background-size: cover;
+          background-position: center;
+          
+      }
+  </style>--%>
+
    
     <form runat="server">
         <asp:ScriptManager runat="server">
@@ -84,4 +104,5 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/Scripts/bootstrap.js") %>
     </asp:PlaceHolder></body>
+
 </html>
