@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Menyamer\\source\\repos\\Carbon-Foot-Print-Calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Menyamer\\source\\repos\\Carbon-Foot-Print-Calculator\\webapplication1\\calculator 1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|c:\\users\\menyamer\\source\\repos\\carbon-foot-print-calculator\\webapplication1\\calculator 1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\calculator 1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|c:\\users\\menyamer\\source\\repos\\carbon-foot-print-calculator\\webapplication1\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Menyamer\\source\\repos\\Carbon-Foot-Print-Calculator\\webapplication1\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|c:\\users\\menyamer\\source\\repos\\carbon-foot-print-calculator\\webapplication1\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Menyamer\\source\\repos\\Carbon-Foot-Print-Calculator\\webapplication1\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|c:\\users\\menyamer\\source\\repos\\carbon-foot-print-calculator\\webapplication1\\calculator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Menyamer\\source\\repos\\Carbon-Foot-Print-Calculator\\webapplication1\\calculator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\calculator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|c:\\users\\menyamer\\source\\repos\\carbon-foot-print-calculator\\webapplication1\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Menyamer\\source\\repos\\Carbon-Foot-Print-Calculator\\webapplication1\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{9D4EB3EE-9F59-4ED7-AFD9-69FF31C383DB}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -47,8 +47,7 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-02-28T17:46:56.451Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -72,7 +71,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\DataController.cs",
               "ToolTip": "C:\\Users\\Menyamer\\source\\repos\\Carbon-Foot-Print-Calculator\\WebApplication1\\DataController.cs",
               "RelativeToolTip": "WebApplication1\\DataController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA7wAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T07:38:12.123Z",
               "EditorCaption": ""
@@ -85,7 +84,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Calculator.html",
               "ToolTip": "C:\\Users\\Menyamer\\source\\repos\\Carbon-Foot-Print-Calculator\\WebApplication1\\Calculator.html",
               "RelativeToolTip": "WebApplication1\\Calculator.html",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAqwLcAAAACAAAA",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAAALcAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-03-06T07:29:49.339Z",
               "EditorCaption": ""
@@ -98,7 +97,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\DataStorage.cs",
               "ToolTip": "C:\\Users\\Menyamer\\source\\repos\\Carbon-Foot-Print-Calculator\\WebApplication1\\DataStorage.cs",
               "RelativeToolTip": "WebApplication1\\DataStorage.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCIAAAArAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T07:25:48.189Z",
               "EditorCaption": ""
@@ -113,8 +112,7 @@
               "RelativeToolTip": "WebApplication1\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-02-23T09:18:36.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T09:18:36.757Z"
             }
           ]
         }

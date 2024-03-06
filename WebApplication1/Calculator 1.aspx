@@ -111,16 +111,16 @@
     </table>
 
     <script>
-        function submitTransportData() {
-            const vehicleType = document.getElementById("vehicleType").value;
-            const distance = parseFloat(document.getElementById("distance").value);
-            const fuelType = document.getElementById("fuelType").value;
-            const fuelEfficiency = parseFloat(document.getElementById("fuelEfficiency").value);
+        //function submitTransportData() {
+        //    const vehicleType = document.getElementById("vehicleType").value;
+        //    const distance = parseFloat(document.getElementById("distance").value);
+        //    const fuelType = document.getElementById("fuelType").value;
+        //    const fuelEfficiency = parseFloat(document.getElementById("fuelEfficiency").value);
 
-            const carbonFootprint = calculateTransportCarbonFootprint(vehicleType, distance, fuelType, fuelEfficiency);
+        //    const carbonFootprint = calculateTransportCarbonFootprint(vehicleType, distance, fuelType, fuelEfficiency);
 
-            addRowToTransportTable(vehicleType, distance, fuelType, fuelEfficiency, carbonFootprint);
-        }
+        //    addRowToTransportTable(vehicleType, distance, fuelType, fuelEfficiency, carbonFootprint);
+        //}
 
         function submitElectricityData() {
             const energySource = document.getElementById("energySource").value;
@@ -190,6 +190,11 @@
   <script>
       function submitTransportData() {
           // ... existing code ...
+         // debugger;
+              const vehicleType = document.getElementById("vehicleType").value;
+              const distance = parseFloat(document.getElementById("distance").value);
+              const fuelType = document.getElementById("fuelType").value;
+              const fuelEfficiency = parseFloat(document.getElementById("fuelEfficiency").value);
 
           const carbonFootprint = calculateTransportCarbonFootprint(vehicleType, distance, fuelType, fuelEfficiency);
 
