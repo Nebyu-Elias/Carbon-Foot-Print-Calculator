@@ -23,7 +23,8 @@ more advanced features like database management, APIs, front-end
 development, data visualization, and authentication and authorization.</h4> 
         </p>
             
-            <p><a href="https://localhost:44321/Calculator.html" class="btn btn-primary btn-md">Calculator &raquo;</a></p>
+     <%--       <p><a href="https://localhost:44321/Calculator.html" class="btn btn-primary btn-md">Calculator &raquo;</a></p>--%>
+            <p><a href="https://localhost:44321/Calculator 1" class="btn btn-primary btn-md">Calculator &raquo;</a></p>
         </section>
         
  <%--       <div class="row">

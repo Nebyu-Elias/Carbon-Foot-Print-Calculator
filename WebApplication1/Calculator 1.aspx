@@ -22,6 +22,17 @@
             text-align: left;
         }
     </style>
+
+    
+    <style>
+        body {
+            background-image: url('image4.png');
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -173,6 +184,63 @@
             }
         }
     </script>
+
+     
+  <!-- Here is where i updated the  JavaScript functions to make AJAX requests to the server -->
+  <script>
+      function submitTransportData() {
+          // ... existing code ...
+
+          const carbonFootprint = calculateTransportCarbonFootprint(vehicleType, distance, fuelType, fuelEfficiency);
+
+          addRowToTransportTable(vehicleType, distance, fuelType, fuelEfficiency, carbonFootprint);
+
+          // Add the following lines to make an AJAX request to the server
+          const data = {
+              vehicleType: vehicleType,
+              distance: distance,
+              fuelType: fuelType,
+              fuelEfficiency: fuelEfficiency,
+              carbonFootprint: carbonFootprint
+          };
+
+          sendDataToServer('StoreTransportData', data);
+      }
+
+      function submitElectricityData() {
+          // ... existing code ...
+
+          const carbonFootprint = calculateElectricityCarbonFootprint(energySource, electricityUsage);
+
+          addRowToElectricityTable(energySource, electricityUsage, carbonFootprint);
+
+          // Add the following lines to make an AJAX request to the server
+          const data = {
+              energySource: energySource,
+              electricityUsage: electricityUsage,
+              carbonFootprint: carbonFootprint
+          };
+
+          sendDataToServer('StoreElectricityData', data);
+      }
+
+      function sendDataToServer(endpoint, data) {
+          fetch(`http://localhost:44321/api/Data/${endpoint}`, {
+              method: 'POST',
+              headers: {
+                  'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(data)
+          })
+              .then(response => response.json())
+              .then(result => console.log(result))
+              .catch(error => console.error('Error:', error));
+      }
+  </script>
+
+
+
+
     <p><a href="https://localhost:44321/Default" class="btn btn-primary btn-md">Home &raquo;</a></p>
 </body>
 </html>
